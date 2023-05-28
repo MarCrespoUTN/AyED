@@ -22,7 +22,7 @@ using namespace std;
   int main()
   {
  												                   //Llamo a mi funcion
-  cout<<setprecision(7)<<pi(); 						 //Utilizo setprecision(7) para usar un valor fijo de comas y 
+  cout<<"el numero pi es igual a "<<setprecision(7)<<pi(); 						 //Utilizo setprecision(7) para usar un valor fijo de comas y 
                                            //Multiplico por 4 ya que la serie de liebniz me da pi/4.
   return 0;                                //Finalizo el programa
   }
