@@ -10,7 +10,7 @@ using namespace std;
 	    double g= 0;           							 //Inserto variables.
 	    double x= 1;
             double d= 0;
-    while(g<=(0.7853980) || g>=(0.7853982)){ 						 //Genero un while para repetir la sumatoria una determinada cantidad de veces.
+    while(g<=(0.7853980) || g>=(0.7853981)){ 						 //Genero un while para repetir la sumatoria una determinada cantidad de veces.
 	  d= 2*n-1;	                                                                 //Con un rango de valor determinado para que me devuelva pi/4
   	g =  g + x*(1/d);								 //Realizo el calculo con la serie de Liebniz.
   	x *= -1; 									 //Cambio el signo de la sumatoria.
